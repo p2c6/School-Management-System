@@ -6,4 +6,6 @@ This simple system aims to help and manage all the school related activites and 
 
 <!-- # Installation
 You may require to install the npm for this application. To install, just
-`npm install` in your terminal. -->
+`npm install` in your terminal. 
+ cp .env.example .env
+-->
