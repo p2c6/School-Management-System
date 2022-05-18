@@ -9,7 +9,6 @@ class ProfileController extends Controller
 {
     public function index()
     {
-        // User::where('id', Auth::user()->id);
         return view('profile.index');
     }
 
