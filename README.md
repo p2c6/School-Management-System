@@ -5,7 +5,11 @@ This simple system aims to help and manage all the school related activites and 
 
 
 <!-- # Installation
-You may require to install the npm for this application. To install, just
-`npm install` in your terminal. 
+You may require to update the composer for this application. To install, just
+`composer update` in your terminal. 
  cp .env.example .env
+ php artisan key:generate
+ php artisan migrate
+You may also require to install the npm for this application. To install, just
+`npm install` in your terminal. 
 -->
