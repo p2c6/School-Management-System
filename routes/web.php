@@ -36,6 +36,7 @@ Route::resources([
     'subjects' => SubjectController::class,
     'professors' => ProfessorController::class
 ]);
+
 Route::get('/export-students', [StudentController::class, 'export'])->name('students.export');
 
 Route::controller(ProfileController::class)->group(function () {
