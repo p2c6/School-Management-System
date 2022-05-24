@@ -18,10 +18,8 @@ class ScheduleController extends Controller
      */
     public function index()
     {
-        // $schedules =  Schedule::with(['course', 'subject', 'professor'])->get();
-        $schedules = Schedule::with(['course', 'subject', 'professor'])->paginate(10);
-
-       
+       $schedules = Schedule::with(['course', 'subject', 'professor'])->paginate(10);
+        
        return view('schedules.index', compact('schedules'));
     }
 
